@@ -79,16 +79,11 @@ text-align: centre;
 .column {
   float: left;
     width: 20%;
-    padding: 15px 25px;
-    margin-left: 3%;
+    padding: 15px 45px 15px 15px;
+    margin-left: 5%;
 
 }
-.column1{
-  width: 20%;
-  padding: 15px 15px;
-  margin-left: 8%;
 
-}
 
 /* Remove extra left and right margins, due to padding */
 .row {
@@ -96,6 +91,9 @@ margin-left: 8%;
 margin-right: 8%;
 padding-top: 30px;
 padding-bottom: 30px;
+}
+.row1{
+margin-left: 14%;
 }
 
 

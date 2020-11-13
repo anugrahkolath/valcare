@@ -1,0 +1,186 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h2{
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom:50px;
+}
+h3{
+  color: white;
+  padding: 20px;
+}
+h1{
+  padding: 70px 40px  40px;
+  font-size: 2.5rem;
+font-weight: bold;
+color: white;
+
+}
+.mainpic{
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+.navbar {
+  padding: 10px 70px;
+}
+/* Float four columns side by side */
+.column {
+ padding: 10px 10px;
+}
+p{
+  font-size: 1.5em;
+    line-height: 2;
+}
+
+.colored-section {
+  background-color: black;
+  color: #fff;
+
+}
+.about-us{
+  height: 600px;
+  background-color: #52575d;
+ color: white;
+ padding: 30px 70px;
+ font-family: 'Comfortaa', cursive;
+}
+#services{
+background-color: white;
+
+  padding-top: 100px;
+  height: 800px;
+  font-family: 'Comfortaa', cursive;
+
+
+}
+.serv-div{
+  color: black;
+}
+.serv-card{
+  font-size: 15px;
+text-align: centre;
+
+  width: 180px;
+
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* service card */
+
+/* Float four columns side by side */
+.column {
+  float: left;
+    width: 20%;
+    padding: 15px 15px;
+    margin-left: 3%;
+
+}
+.column1{
+  width: 20%;
+  padding: 15px 15px;
+  margin-left: 8%;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+margin-left: 8%;
+margin-right: 8%;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column, .column1{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 7%;
+  width: 250px;
+  height: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
+
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+/** consultants ***/
+.testimonial-image {
+  text-align: center;
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px auto 50px;
+}
+.consultant{
+  font-family: 'Comfortaa', cursive;
+width: 100%;
+height: 1100px;
+  background-color: #52575d;
+ color: white;
+padding-top: 5%;
+padding-bottom: 10%;
+}
+
+.cons-p{
+  padding-right: 10%;
+  padding-left:  10%;
+}
+
+
+/*** contact us **/
+
+a, a:hover{
+  text-decoration: none;
+  color: white;
+}
+.cont-div{
+  background-color: black;
+text-align: left;
+padding: 30px 10% 30px 10%;
+font-family: 'Comfortaa', cursive;
+}
+.container-contact{
+  color: #bbbfca;
+}
+.container-fluid{
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+/*   footer */
+
+.social-icon {
+  padding: 3%;
+}
+hr{
+  height: 2px;
+  width: 100%;
+  margin: 0;
+  background-color: #52575d;
+  border: none;
+}
